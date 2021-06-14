@@ -10,9 +10,9 @@ import org.apache.logging.log4j.Logger;
 @Mod(modid = OakOres.MODID, name = OakOres.NAME, version = OakOres.VERSION)
 public class OakOres
 {
-    public static final String MODID = "examplemod";
-    public static final String NAME = "Example Mod";
-    public static final String VERSION = "1.0";
+    public static final String MODID = "oakores";
+    public static final String NAME = "Oak's Ore Mod - Legacy Edition";
+    public static final String VERSION = "1.0.0";
 
     private static Logger logger;
 
@@ -26,6 +26,6 @@ public class OakOres
     public void init(FMLInitializationEvent event)
     {
         // some example code
-        logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        logger.info(OakOres.NAME + "has started!");
     }
 }
